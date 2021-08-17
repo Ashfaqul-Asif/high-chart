@@ -54,15 +54,15 @@
         </div>
       </div>
       <div class="flex-1 ml-14 mt-16">
-        <HelloWorld class="mb-12 xl:mb-20 " />
+        <lifeTimeRevenue class="mb-12 xl:mb-20 " />
         <SalesConcentration class="mb-12 xl:mb-20" />
         <CustomerLifetimeRevenue class="mb-12 xl:mb-20" />
         <CustomCohortSurvival class="mb-12 xl:mb-20" />
         <RevenueRetention class="mb-12 xl:mb-20" />
-        <HistoricalRepeat class="mb-12 xl:mb-20" />
         <NextActive60Customer class="mb-12 xl:mb-20" />
         <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laboriosam sed suscipit, dolor corrupti et similique ipsa eum porro ea exercitationem, reiciendis commodi soluta quidem. Veniam voluptatibus et nam architecto. -->
         <NextActive60Rev class="mb-12 xl:mb-20" />
+        <HistoricalRepeat class="mb-12 xl:mb-20" />
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import lifeTimeRevenue from '@/components/lifeTimeRevenue.vue'
 import CustomerLifetimeRevenue from '@/components/CustomerLifetimeRevenue.vue'
 import SalesConcentration from '@/components/SalesConcentration.vue'
 import CustomCohortSurvival from '@/components/CustomCohortSurvival.vue'
@@ -84,7 +84,7 @@ import NextActive60Rev from '@/components/NextActive60Rev.vue'
 export default {
   name: 'Home',
   components: {
-    HelloWorld, CustomerLifetimeRevenue, SalesConcentration, CustomCohortSurvival,
+    lifeTimeRevenue, CustomerLifetimeRevenue, SalesConcentration, CustomCohortSurvival,
     RevenueRetention, HistoricalRepeat, NextActive60Customer, NextActive60Rev
   }
 }

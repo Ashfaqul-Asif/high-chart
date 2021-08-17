@@ -39,16 +39,12 @@ export default {
           ]
         },
         title: {
-          text: 'Repeat Purchase Behavior',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "18px" }
+          text: '',
+          // align: 'left',
+          // style: { "font-family": "Gill sans", "font-size": "18px" }
         },
 
-        subtitle: {
-          text: 'This measures the stickiness of the product.',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "14px" }
-        },
+
         "yAxis": {
           "title": {
             "text": "% of Customers"

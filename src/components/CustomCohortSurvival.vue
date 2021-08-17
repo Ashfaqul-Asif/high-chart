@@ -1,17 +1,21 @@
 <template>
   <div class="bg-white rounded shadow p-1 py-5 px-4">
-    <div class="font-gillSans text-left pl-10 flex space-x-4 ">
+    <div class="font-gillSans text-left pl-10 flex space-x-4">
       <div class="pt-1">
         <div class="rounded-100 w-8 h-8 grid place-items-center bg-1b text-white">
           <i class="far fa-chart-line text-xl"></i>
         </div>
       </div>
       <div>
-        <span class="text-2xl">Customer Cohort Survival / Subsequent Retention  </span>
+        <span class="text-2xl">Customer Cohort Survival / Subsequent Retention</span>
         <br />
         <span class="text-xl">Simple Description</span>
+        <div class="text-left mt-4 graph-title">
+          <span class="text-base">Customer Cohort Retention chart</span>
+        </div>
       </div>
     </div>
+
     <figure class="highcharts-figure">
       <div id="CustomCohortSurvival"></div>
     </figure>
@@ -34,10 +38,10 @@ export default {
     waterFallChart() {
       window.Highcharts.chart('CustomCohortSurvival', {
         title: {
-          text: 'Customer Cohort Retention chart',
+          text: '',
           //  margin: 50,
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "18px" }
+          // align: 'left',
+          // style: { "font-family": "Gill sans", "font-size": "18px" }
         },
 
         // subtitle: {

@@ -7,9 +7,12 @@
         </div>
       </div>
       <div>
-        <span class="text-2xl">Bottoms Up Profit Predictive CLV Metrics</span>
+        <span class="text-2xl">Historic Repeat Purchase Behaviour</span>
         <br />
         <span class="text-xl">Simple Description</span>
+        <div class="mt-4">
+          <span class="text-base graph-tile">HRPB chart</span>
+        </div>
       </div>
     </div>
     <figure class="highcharts-figure">
@@ -34,15 +37,15 @@ export default {
     waterFallChart() {
       window.Highcharts.chart('CustomerLifetimeRevenue', {
         title: {
-          text: 'Sales / Customer Concentration Chart',
+          text: '',
           align: 'left',
           style: { "font-family": "Gill sans", "font-size": "18px" }
         },
         // "color": '#4B4BE6',            "color": '#BD10E0',
         subtitle: {
-          text: 'Lifetime Revenue (5 Yr) & Revenue concentration plots, 20% of customer account for 55.4% of LTV and 59% of Revenue',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "14px" }
+          text: '',
+          // align: 'left',
+          // style: { "font-family": "Gill sans", "font-size": "14px" }
         },
 
         "yAxis": {

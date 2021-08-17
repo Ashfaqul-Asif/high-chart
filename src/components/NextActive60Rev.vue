@@ -7,9 +7,7 @@
         </div>
       </div>
       <div>
-        <span class="text-2xl">Historic Annual Customer Growth</span>
-        <br />
-        <span class="text-xl">Simple Description</span>
+        <span class="text-2xl">Net Revenue in 60 Day</span>
       </div>
     </div>
     <figure class="highcharts-figure">
@@ -34,16 +32,12 @@ export default {
     waterFallChart() {
       window.Highcharts.chart('active60Revenue', {
         title: {
-          text: 'Net Revenue in 60 Day',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "18px" }
+          text: '',
+          // align: 'left',
+          // style: { "font-family": "Gill sans", "font-size": "18px" }
         },
 
-        subtitle: {
-          text: 'Revenue in USD on Y-Axis',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "14px" }
-        },
+
 
         "yAxis": {
           "title": {

@@ -10,6 +10,9 @@
         <span class="text-2xl">SalesConcentration</span>
         <br />
         <span class="text-xl">Simple Description</span>
+        <div class=" mt-4">
+          <span class="text-base graph-tile">Sales / Customer Concentration Chart</span>
+        </div>
       </div>
     </div>
     <figure class="highcharts-figure">
@@ -34,16 +37,11 @@ export default {
     waterFallChart() {
       window.Highcharts.chart('salesConcentration', {
         title: {
-          text: 'Sales / Customer Concentration Chart',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "18px" }
+          text: '',
+          // align: 'left',
+          // style: { "font-family": "Gill sans", "font-size": "18px",'margin-left':'40px' }
         },
 
-        subtitle: {
-          text: 'Lifetime Revenue (5 Yr) & Revenue concentration plots, 20% of customer account for 55.4% of LTV and 59% of Revenue',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "14px" }
-        },
 
         "yAxis": {
           "title": {

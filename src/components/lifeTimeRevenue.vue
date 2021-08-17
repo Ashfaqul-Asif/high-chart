@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white rounded shadow p-1 py-5 px-4">
-    <div class="font-gillSans text-left pl-10 flex space-x-4">
+    <div class="font-gillSans text-left pl-10 flex space-x-6">
       <div class="pt-1">
         <div class="rounded-100 w-8 h-8 grid place-items-center bg-1b text-white">
           <i class="far fa-chart-line text-xl"></i>
@@ -10,6 +10,9 @@
         <span class="text-2xl">Bottoms Up Profit Predictive CLV Metrics</span>
         <br />
         <span class="text-xl">Simple Description</span>
+        <div class=" mt-4">
+          <span class="text-base graph-tile">Distribution of Lifetime Revenue (LTR) & Customers</span>
+        </div>
       </div>
     </div>
     <figure class="highcharts-figure">
@@ -34,9 +37,9 @@ export default {
     waterFallChart() {
       window.Highcharts.chart('lifeTimeRevenue', {
         title: {
-          text: "Distribution of lifetime revenue (LTR) & Customer",
-          align: "left",
-          style: { "font-family": "Gill sans", "font-size": "18px" }
+          text: "",
+          // align: "left",
+          // style: { "font-family": "Gill sans", "font-size": "18px" }
         },
         "yAxis": [
           {

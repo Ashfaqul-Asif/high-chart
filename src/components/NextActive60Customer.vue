@@ -7,7 +7,7 @@
         </div>
       </div>
       <div>
-        <span class="text-2xl">Historic Annual Customer Growth</span>
+        <span class="text-2xl">Net Active Customers in 60 Day</span>
         <br />
         <span class="text-xl">Simple Description</span>
       </div>
@@ -34,16 +34,12 @@ export default {
     waterFallChart() {
       window.Highcharts.chart('active60Customer', {
         title: {
-          text: 'Net Active Customers in 60 Day',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "18px" }
+          text: '',
+          // align: 'left',
+          // style: { "font-family": "Gill sans", "font-size": "18px" }
         },
 
-        subtitle: {
-          text: 'Number of Customers in Y-Axis',
-          align: 'left',
-          style: { "font-family": "Gill sans", "font-size": "14px" }
-        },
+
         "yAxis": {
           "title": {
             "text": " "
